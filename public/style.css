@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+body {
+  font: 13px Helvetica, Arial;
+  background-color: #212426;
+  color : #e6db74;
+}
+
+form {
+  padding: 3px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #181a1b;
+}
+
+form input {
+  border: 0;
+  padding: 10px;
+  width: 90%;
+  margin-right: .5%;
+  color: #FFF;
+  font: 13px Helvetica, Arial;
+  background-color: #181a1b;
+}
+
+form button {
+  width: 9%;
+  background: #000;
+  border: none;
+  padding: 10px;
+  color: #FFF;
+  font-size: 12px;
+  background-color: #181a1b;
+}
+
+#messages {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#messages li {
+  padding: 5px 10px;
+}
+
+.notification {
+  color : #a6e22e;
+  font-style : italic;
+}
+
+.username {
+  color : #f92672;
+}
